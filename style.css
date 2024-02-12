@@ -11,9 +11,9 @@ ul, li {
     padding: 0;
 }
 
-/* body {
-    background-color: rgb(168, 211, 211);
-} */
+body {
+    /* position: relative; */
+}
 
 .container {
     display: flex;
@@ -53,3 +53,37 @@ ul, li {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.addTasks {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.addTasks form label {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    border-radius: 200px;
+}
+
+.addTasks form input{
+    width: 50rem;
+    height: 2.8rem;
+    border: none;
+    position: relative;
+    bottom: 0.3rem;
+    border-radius: 200px;
+}
+
+.addTasks form input:focus{
+    outline: none;
+}
+
+.addTasks form label:hover{
+    background-color: #d6d5d5;
+    color: rgb(0, 0, 0);
+}
+
